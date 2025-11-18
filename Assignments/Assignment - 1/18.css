@@ -1,0 +1,41 @@
+.dashboard {
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+.header {
+    grid-column: 1 / 4;   
+    grid-row: 1 / 2;
+    background: #112885;
+    color: white;
+    padding: 15px;
+}
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background: #f0f0f0;
+    padding: 15px;
+}
+.main {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+.widgets {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background: #f9f9f9;
+    padding: 15px;
+}
+.footer {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    background: #b66767;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

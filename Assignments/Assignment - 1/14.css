@@ -1,0 +1,14 @@
+#box{
+    background-color: orange;
+    width: 200px;
+    height: 100vh;           /* full viewport height */
+    position: sticky;        /* makes it sticky */
+    top: 0;                  /* stick to top when scrolling */
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+#inside{
+     margin-left: 210px;      /* move content to the right of sidebar */
+    padding: 20px;
+}

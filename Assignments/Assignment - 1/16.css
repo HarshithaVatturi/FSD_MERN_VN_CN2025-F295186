@@ -1,0 +1,21 @@
+nav a {
+    text-decoration: none;
+    color: rgb(173, 176, 74);
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.menu-inline a {
+    display: inline;        
+    background-color: rgb(16, 65, 82);
+      color: antiquewhite;
+}
+
+
+.menu-block a {
+    display: block;          
+    background-color: rgb(76, 61, 154);
+    color: antiquewhite;
+    width: 150px;            
+}

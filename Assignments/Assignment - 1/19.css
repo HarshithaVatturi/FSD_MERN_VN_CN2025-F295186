@@ -1,0 +1,45 @@
+.navbar {
+    background: #333;
+    padding: 10px;
+}
+
+.navbar a {
+    color: rgb(246, 207, 207);
+    padding: 10px 15px;
+    display: inline-block;  
+    font-size: 12px;
+}
+
+
+@media (min-width: 1025px) {
+    .navbar {
+        background: #333;  
+    }
+
+    .navbar a {
+        display: inline-block; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        background: #8a6399; 
+    }
+
+    .navbar a {
+        display: inline-block; 
+    }
+}
+
+
+@media (max-width: 767px) {
+    .navbar {
+        background: #444;
+    }
+
+    .navbar a {
+        display: block;   
+        padding: 12px;
+        border-bottom: 1px solid #666;
+    }
+}

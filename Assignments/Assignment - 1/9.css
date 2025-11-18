@@ -1,0 +1,32 @@
+#box1{
+    background-color: rgb(189, 147, 215);
+    color:rgb(11, 89, 95);
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+    border-style: solid;
+    padding: 40px;
+}
+
+#box2{
+    background-color: rgb(133, 67, 173);
+    color: rgb(228, 180, 59);
+    width: 200px;
+    height: 200px;
+    margin: 150px;
+    border-style: solid;
+    padding: 70px;
+    border-width: 10px;
+    
+}
+#box3{
+    background-color: rgb(55, 8, 84);
+    color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    margin: 250px;
+    border-style: solid;
+    padding: 5px;
+    border-width: 60px;
+    border-color: cornflowerblue;
+}

@@ -1,0 +1,14 @@
+.viola{
+     display: block;
+    margin: 25px auto;
+    border-radius: 10px;
+    width: 1500px;
+}
+
+.below-text {
+    color: bisque;
+    width: 1500px;        
+    margin: 10px auto;    
+    font-size: 25px;
+    text-align: justify;
+}

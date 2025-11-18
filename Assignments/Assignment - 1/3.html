@@ -1,0 +1,56 @@
+<!--Create a registration form with the following fields: Username, Email, Password, 
+Confirm Password, Date of Birth, Gender (radio buttons), Country (dropdown), Terms & 
+Conditions (checkbox), and a Submit button. Use appropriate input types and include 
+placeholder text.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <center>
+        <h1>Registration form</h1>
+    </center>
+
+    <div style="background-color: cadetblue;">
+     <h2>
+        <pre>
+
+        The registration closes by 9:00 pm tonight!!
+        Make sure you fill all the details and correctly 
+        For further details mail here :<a href="mailto:harshitha.vtr@gmail.com"> harshitha.vtr@gmail.com</a>
+        </pre>
+     </h2>
+        <hr>
+    </div>
+    <hr>
+    <div>
+        <label>Username : </label>
+         <input type="text" placeholder="Enter your username"><br><br>
+        <label>Password : </label>
+         <input type="password" placeholder="Enter your password"><br><br>
+        <label>Confirm Password : </label>
+         <input type="password" placeholder="Re-enter your password"><br><br>
+        <label>Date of Birth : </label>
+         <input type="date"><br><br>
+        <label>Gender: </label>
+         <input type="radio">Female <input type="radio"> Male <br><br>
+        <label>Country: </label>
+        <select id="">
+            <option>Select </option>
+            <option>India</option>
+            <option>Japan</option>
+            <option>Singapore</option>
+            <option>Norway</option>
+        </select><br><br>
+         <input type="checkbox">
+        <label>Terms and Conditions</label><br><br>
+         <input type="submit" onclick="alert('Form Submitted Successfully')">
+    </div>
+</body>
+</html>

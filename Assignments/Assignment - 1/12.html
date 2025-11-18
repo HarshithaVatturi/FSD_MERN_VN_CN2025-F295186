@@ -1,0 +1,106 @@
+<!--Create a webpage with three different CSS styling methods... 
+   and style a navigation menu with hover + visited colors. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling</title>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="11.css">
+
+    <!-- internal css for navigation menu -->
+    <style>
+        /* INTERNAL CSS – navigation bar styles */
+        nav {
+            margin-top: 10px;
+        }
+
+        .below {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #FFE9C7;
+            border: 2px dashed #3B5BA5;
+            padding: 12px 0;
+            font-family: "Trebuchet MS", Arial, sans-serif; 
+            font-size: 24px;                                
+            font-weight: 600;                               
+            text-align: center;
+        }
+
+        .below th {
+            padding: 0 40px;
+        }
+
+        /* link normal + visited + hover states */
+        .below a:link {
+            color: #5A189A;
+            text-decoration: none;
+        }
+
+        .below a:visited {
+            color: #1B4332;  /* different color when visited */
+        }
+
+        .below a:hover {
+            color: #D00000;  /* hover color */
+            text-shadow: 0 0 6px #FFFFFF;
+        }
+
+        .below a:active {
+            color: #FFB703;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color:#F3E9FF;">
+        <!-- INLINE CSS – heading -->
+        <center>
+            <h1 style="
+                width: 80%;
+                height: 100px;
+                font-size: 40px;
+                background-color:#3E065F;
+                color:#FDECEF;
+                border:5px solid #A66CFF;
+                padding-top: 35px;
+                font-family:'Georgia', serif;">
+                Welcome to this page
+            </h1>
+        </center>
+
+        <!-- INTERNAL CSS – navigation bar -->
+        <nav>
+            <table class="below">
+                <tr>
+                    <!-- links needed so hover/visited will work -->
+                    <th><a href="home.html">Home</a></th>
+                    <th><a href="about.html">About</a></th>
+                    <th><a href="services.html">Services</a></th>
+                    <th><a href="contact.html">Contact</a></th>
+                </tr>
+            </table>
+        </nav>
+
+        <!-- EXTERNAL CSS – image + text -->
+        <div>
+           <img src="violet.jpg" class="viola">
+        </div>
+
+        <p class="below-text">
+            Welcome to our styled navigation demo. Move your mouse over the menu links
+            to see the hover effect, and click them once to see the visited color.
+            This page also uses inline, internal, and external CSS together.
+        </p>
+
+        <center>
+            <span style="background-color:#FBC4AB; font-size:26px;">
+                <i>@Copyrights Reserved 2025</i>
+            </span>
+        </center>
+    </div>
+</body>
+</html>

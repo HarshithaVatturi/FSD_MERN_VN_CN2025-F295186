@@ -1,0 +1,24 @@
+body {
+    background-color: #F7F2FF;
+    font-family: Arial, sans-serif;
+}
+
+/* Image Styling */
+.viola {
+    display: block;
+    margin: 25px auto;
+    width: 900px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #B983FF;
+}
+
+/* Paragraph Styling */
+.below-text {
+    width: 900px;
+    margin: 20px auto;
+    font-size: 20px;
+    text-align: justify;
+    color: #4A4A4A;
+    font-family: "Cambria", serif;
+    line-height: 1.5;
+}

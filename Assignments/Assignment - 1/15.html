@@ -1,0 +1,35 @@
+<!--Create four 150×150 boxes: move the relative box 20px right/down, place the 
+absolute box at the bottom-right of its parent, and keep the fixed box stuck to the bottom left of the screen while scrolling.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position Example</title>
+    <link rel="stylesheet" href="15.css">
+</head>
+<body>
+
+    <h3 style="color: cornflowerblue;">Welcome to page of boxes</h3>
+
+    <div class="container">
+        <div class="box static-box">Static Box</div>
+        <div class="box relative-box">Relative Box</div>
+        <div class="box parent-box">
+            Parent (for absolute box)
+            <div class="absolute-box">Absolute Box</div>
+        </div>
+    </div>
+
+    
+    <div class="box fixed-box">
+        Fixed Box
+    </div>
+
+   
+    <div style="height:1500px;">
+        <p></p>
+    </div>
+
+</body>
+</html>

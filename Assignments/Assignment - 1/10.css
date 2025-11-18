@@ -1,0 +1,38 @@
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: whitesmoke;
+    border: 4px ; 
+    border-style: dashed; 
+    border-color: rgb(61, 3, 114);
+    border-radius: 15px;
+    padding: 40px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.card-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card-desc {
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.card-btn {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    
+}

@@ -1,0 +1,73 @@
+<!--Create a webpage header that remains fixed at the top of the page while 
+scrolling. The header should contain a logo on the left and navigation links on the right. Use 
+appropriate positioning.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fixed Header Example</title>
+
+    <style>
+        
+        header {
+            position: fixed;      
+            top: 0;
+            left: 0;
+            width: 100%;          
+            background-color: #333;
+            display: flex;        
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            color: white;
+            z-index: 1000;         
+        }
+
+       
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        
+        nav a:hover {
+            color: yellow;
+        }
+
+        
+        body {
+            margin: 0;
+            padding-top: 70px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    
+    <div class="logo">
+        <img src="logo.jpg" style="width: 100px;" height="100px">
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scroll down to see the header stays fixed...</p>
+<p style="margin-top:800px;">End of content.</p>
+
+</body>
+</html>
