@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science Engineering",
+    "description": "Focuses on computing, algorithms, AI, and modern software development.",
+    "courses": ["DSA", "Operating Systems", "DBMS", "Cloud Computing"],
+    "faculty": ["Dr. Kumar", "Dr. Meena", "Prof. Rahul"],
+    "labs": ["Programming Lab", "Networks Lab", "AI Lab"]
+  },
+  {
+    "id": "it",
+    "name": "Information Technology",
+    "description": "IT focuses on software systems, network technologies, and information management.",
+    "courses": ["Web Development", "Computer Networks", "Cyber Security"],
+    "faculty": ["Dr. Priya", "Prof. Sanjay"],
+    "labs": ["Web Tech Lab", "Security Lab"]
+  },
+  {
+    "id": "ece",
+    "name": "Electronics & Communication Engineering",
+    "description": "Covers electronics, embedded systems, and communication technologies.",
+    "courses": ["Digital Electronics", "VLSI", "Signals & Systems"],
+    "faculty": ["Dr. Rekha", "Prof. Ajith"],
+    "labs": ["EC Lab", "Microprocessor Lab"]
+  },
+  {
+    "id": "mech",
+    "name": "Mechanical Engineering",
+    "description": "Mechanical engineering covers machines, production, thermodynamics and materials.",
+    "courses": ["Thermodynamics", "Fluid Mechanics", "Manufacturing"],
+    "faculty": ["Dr. Victor", "Prof. Arjun"],
+    "labs": ["Workshop Lab", "Thermo Lab"]
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineering",
+    "description": "Deals with construction, structures, environmental and geotechnical engineering.",
+    "courses": ["Structural Engg", "Surveying", "GeoTech"],
+    "faculty": ["Dr. Shalini", "Prof. Manoj"],
+    "labs": ["Survey Lab", "Environmental Lab"]
+  },
+  {
+    "id": "mba",
+    "name": "Master of Business Administration",
+    "description": "Focuses on business, finance, marketing, HR and management.",
+    "courses": ["Finance", "Marketing", "Business Analytics"],
+    "faculty": ["Dr. Anita", "Prof. Rahul"],
+    "labs": ["Business Simulation Lab"]
+  }
+]
